@@ -165,7 +165,6 @@ This block displays the date and links to Google Calendar.
 <p id="when">
   <strong>When:</strong>
   {{page.humandate}}.
-  {% include workshop_calendar.html %}
 </p>
 {% endif %}
 
@@ -356,6 +355,8 @@ of code below the Schedule `<h2>` header below with
 
 <hr/>
 
+<h2 id="syllabus">Syllabus</h2>
+{% include swc/syllabus.html %}
 
 {% comment %}
 SETUP
